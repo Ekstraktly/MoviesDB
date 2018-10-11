@@ -1,3 +1,12 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'role/index'
+  get 'actor/index'
+  get 'genre/index'
+  get 'movie/index'
+  get 'welcome/index'
+  root 'welcome#index'
+
+  resources :genres, :movies, :actors, :roles
+  ActiveAdmin.routes(self)
 end
+

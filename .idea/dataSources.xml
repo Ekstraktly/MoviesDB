@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails MoviesDB: test" uuid="ebb5d15e-b704-406b-ad10-d9f9ae10a919">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/MoviesDB_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails MoviesDB: production" uuid="2e360d73-dbda-4598-a2ad-13bb4bd6a450">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/MoviesDB_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails MoviesDB: development" uuid="99614fc8-492b-45a5-a6c3-f866544f2c8a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/MoviesDB_development</jdbc-url>
+    </data-source>
+  </component>
+</project>
