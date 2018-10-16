@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
-  get 'role/index'
-  get 'actor/index'
-  get 'genre/index'
-  get 'movie/index'
+  get 'roles/index'
+  get 'actors/index'
+  get 'actors/show'
+  get 'genres/index'
+  get 'genres/show'
+  get 'movies/index'
+  get 'movies/show'
   get 'welcome/index'
   root 'welcome#index'
 

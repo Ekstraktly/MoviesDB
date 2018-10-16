@@ -1,0 +1,33 @@
+<h2>Single genre</h2>
+
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td><%= @genre.id %></td>
+    <td><%= @genre.name %></td>
+  </tr>
+</table>
+
+<h2>Movies</h2>
+
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th></th>
+  </tr>
+
+  <% @movies.each do |movie| %>
+    <tr>
+      <td><%= movie.id %></td>
+      <td><%= movie.title %></td>
+      <td><%= link_to 'Show', movie_path(movie) %></td>
+    </tr>
+  <% end %>
+</table>

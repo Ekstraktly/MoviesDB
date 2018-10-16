@@ -5,6 +5,11 @@ ruby '2.5.1'
 
 #Added during development process
 gem 'activeadmin'
+gem 'image_processing', '~> 1.2'
+
+group :development, :test do
+  gem 'pry-rails'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
