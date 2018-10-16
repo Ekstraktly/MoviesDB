@@ -16,7 +16,7 @@
     <td><%= @movie.title %></td>
     <td><%= @movie.year %></td>
     <td><%= @movie.overview %></td>
-    <td><%= @movie.score %></td>
+    <td><%= @current_score %></td>
     <td><%= link_to @movie.genre.name, genre_path(@movie.genre) %></td>
   </tr>
 </table>
