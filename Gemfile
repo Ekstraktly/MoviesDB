@@ -5,7 +5,10 @@ ruby '2.5.1'
 
 #Added during development process
 gem 'activeadmin'
+gem 'bootstrap'
 gem 'image_processing', '~> 1.2'
+gem 'jquery-rails'
+gem 'redis', '~> 3.0'
 
 group :development, :test do
   gem 'pry-rails'

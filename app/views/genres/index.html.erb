@@ -1,19 +1,19 @@
+<div class="container">
 <h2>Genres list</h2>
-
-
 <table>
   <tr>
-    <th>ID</th>
+    <th>ID </th>
     <th>Name</th>
     <th></th>
   </tr>
 
   <% @genres.each do |genre| %>
     <tr>
-      <td><%= genre.id %></td>
+      <td><%= genre.id %> </td>
       <td><%= genre.name %></td>
       <td><%= link_to 'Show', genre_path(genre) %></td>
     </tr>
   <% end %>
 </table>
+</div>
 

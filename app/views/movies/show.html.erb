@@ -1,24 +1,29 @@
-<h2>Single movie</h2>
-
-
-<table>
-  <tr>
-    <th>Info</th>
-    <th>Tile</th>
-    <th>Year</th>
-    <th>Overview</th>
-    <th>Score</th>
-    <th>Genre</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td><%= @movie.id %></td>
-    <td><%= @movie.title %></td>
-    <td><%= @movie.year %></td>
-    <td><%= @movie.overview %></td>
-    <td><%= @current_score %></td>
-    <td><%= link_to @movie.genre.name, genre_path(@movie.genre) %></td>
-  </tr>
-</table>
-<%= image_tag @movie.avatar.variant(resize: '400x400') %>
-
+<div class="container">
+  <h2><%= @movie.title %> (<%= @movie.year %>)</h2>
+  <p><%= @movie.overview %></p>
+  <div class="row">
+    <div class="col-sm-3">
+      <%= image_tag @movie.avatar.variant(resize: '400x400'),
+                    class: "img-fluid" %>
+    </div>
+    <div class="col-sm-3">
+      <h2><%= link_to @movie.genre.name, genre_path(@movie.genre) %></h2>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar"
+             aria-valuenow=<%= @current_score %> aria-valuemin="0"
+             aria-valuemax="10" style="width:<%=
+             if @current_score
+             @current_score * 10
+              end%>%">
+          Score: <%= @current_score %>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row">
+      <span class="glyphicon glyphicon-circle-arrow-left"></span>
+      <h5><%= link_to 'Back to movies list',
+                      movies_list_path %></h5>
+      <div id="like_statuses"></div>
+  </div>
+</div>

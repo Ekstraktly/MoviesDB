@@ -17,6 +17,7 @@ class MoviesController < ApplicationController
     request = Net::HTTP::Get.new(url)
     request.body = "{}"
     response = http.request(request)
+    # TODO error if unable to get live score?
     @current_score = JSON.parse(response.read_body)['vote_average']
   end
 end

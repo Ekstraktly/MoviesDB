@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'actors/show'
   get 'genres/index'
   get 'genres/show'
-  get 'movies/index'
+  get 'movies/index', as: 'movies_list'
   get 'movies/show'
   get 'welcome/index'
   root 'welcome#index'

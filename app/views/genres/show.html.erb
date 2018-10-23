@@ -1,28 +1,11 @@
-<h2>Single genre</h2>
-
-
+<div class="container">
+<h2><%= @genre.name %></h2>
 <table>
   <tr>
     <th>ID</th>
     <th>Name</th>
     <th></th>
   </tr>
-  <tr>
-    <td><%= @genre.id %></td>
-    <td><%= @genre.name %></td>
-  </tr>
-</table>
-
-<h2>Movies</h2>
-
-
-<table>
-  <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th></th>
-  </tr>
-
   <% @movies.each do |movie| %>
     <tr>
       <td><%= movie.id %></td>
@@ -31,3 +14,4 @@
     </tr>
   <% end %>
 </table>
+</div>
