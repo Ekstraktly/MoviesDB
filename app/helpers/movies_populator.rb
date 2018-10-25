@@ -5,6 +5,7 @@ require 'net/http'
 class MoviesPopulator
   def self.populate_movies
     (1..5).each do |page|
+      # todo gdje spremiti ovaj api kljuc?
       url = URI("https://api.themoviedb.org/3/movie/top_rated?api_key=e95ef8f8eb154d4d0fb1ba5d47cb66fc&language=en-US&page=#{page}")
       http = Net::HTTP.new(url.host, url.port)
       http.use_ssl = true

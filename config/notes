@@ -1,3 +1,14 @@
 $ heroku run console
 
 $ heroku ps:exec
+
+$ rake db:reset db:migrate
+
+$ heroku logs --tail
+
+$ heroku pg:reset DATABASE
+
+$ heroku pg:psql
+$ \d
+
+$ heroku run "bundle exec rake db:schema:dump && cat db/schema.rb"
