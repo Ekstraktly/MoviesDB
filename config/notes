@@ -1,0 +1,3 @@
+$ heroku run console
+
+$ heroku ps:exec
