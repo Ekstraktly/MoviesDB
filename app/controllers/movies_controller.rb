@@ -1,6 +1,6 @@
 class MoviesController < ApplicationController
   def index
-    @movies = Movie.order(:title)
+    @movies = Movie.search(params[:term])
   end
 
   def show
@@ -19,5 +19,9 @@ class MoviesController < ApplicationController
     response = http.request(request)
     # TODO error if unable to get live score?
     @current_score = JSON.parse(response.read_body)['vote_average']
+  end
+
+  def movie_params
+    params.require(:movie).permit(:title)
   end
 end

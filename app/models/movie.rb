@@ -16,4 +16,12 @@ class Movie < ApplicationRecord
     IO.copy_stream(download, new_path)
     avatar.attach(io: File.open(new_path), filename: name, content_type: 'image/jpg')
   end
+
+  def self.search(term)
+    if term
+      where('title ILIKE ?', "%#{term}%")
+    else
+      order(:title)
+    end
+  end
 end

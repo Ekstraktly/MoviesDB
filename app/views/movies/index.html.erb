@@ -1,6 +1,9 @@
 <div class="container">
 <h2>Movies list</h2>
-
+  <%= form_tag(movies_path, method: :get) do %>
+    <%= text_field_tag :term, params[:term] %>
+    <%= submit_tag 'Search', name: nil %>
+  <% end %>
 
 <table>
   <tr>

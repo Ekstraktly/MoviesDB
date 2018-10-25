@@ -14,14 +14,15 @@ class MoviesPopulator
       response = http.request(request)
 
       JSON.parse(response.read_body)['results'].select do |movie|
-        new_movie = Movie.create('title': movie['title'],
+        new_movie = Movie.create('id': movie['id']
+                                 'title': movie['title'],
                                  'year': movie['release_date'].partition('-')[0],
                                  'overview': movie['overview'],
                                  'score': movie['vote_average'],
                                  'genre_id': movie['genre_ids'][0])
         new_movie.grab_image(File.join('https://image.tmdb.org/t/p/w500', movie['poster_path']),
                          movie['poster_path'][1..-1])
-        puts "THIS MOVIE IS ADDED TO DATABASE: ",
+        puts "THIS MOVIE WAS ADDED TO DATABASE: ",
              movie['title'],
              movie['release_date'].partition('-')[0],
              movie['vote_average']
