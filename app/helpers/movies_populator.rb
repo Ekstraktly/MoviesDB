@@ -14,7 +14,7 @@ class MoviesPopulator
       response = http.request(request)
 
       JSON.parse(response.read_body)['results'].select do |movie|
-        new_movie = Movie.create('id': movie['id']
+        new_movie = Movie.create('id': movie['id'],
                                  'title': movie['title'],
                                  'year': movie['release_date'].partition('-')[0],
                                  'overview': movie['overview'],

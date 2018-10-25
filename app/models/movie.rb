@@ -14,6 +14,7 @@ class Movie < ApplicationRecord
     new_path = File.expand_path("~/Desktop/MoviesDB/images/#{download.base_uri.to_s.split('/')[-1]}")
     # todo why is this not working??
     IO.copy_stream(download, new_path)
+    #binding.pry , and after two interations disable-pry
     avatar.attach(io: File.open(new_path), filename: name, content_type: 'image/jpg')
   end
 

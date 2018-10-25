@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails MoviesDB: test" uuid="ebb5d15e-b704-406b-ad10-d9f9ae10a919">
+      <database-info product="PostgreSQL" version="10.5 (Ubuntu 10.5-0ubuntu0.18.04)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" family="POSTGRES" exact-version="10.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>joso</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
+    </data-source>
+    <data-source name="Rails MoviesDB: production" uuid="2e360d73-dbda-4598-a2ad-13bb4bd6a450">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <user-name>MoviesDB</user-name>
+    </data-source>
+    <data-source name="Rails MoviesDB: development" uuid="99614fc8-492b-45a5-a6c3-f866544f2c8a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <first-sync>true</first-sync>
+      <user-name>MoviesDB</user-name>
+    </data-source>
+  </component>
+</project>
