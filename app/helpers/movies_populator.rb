@@ -20,7 +20,7 @@ class MoviesPopulator
                                  'year': movie['release_date'].partition('-')[0],
                                  'overview': movie['overview'],
                                  'score': movie['vote_average'],
-                                 'genres_id': movie['genre_ids'][0])
+                                 'genre_id': movie['genre_ids'][0])
         new_movie.grab_image(File.join('https://image.tmdb.org/t/p/w500', movie['poster_path']),
                          movie['poster_path'][1..-1])
         puts "THIS MOVIE WAS ADDED TO DATABASE: ",
