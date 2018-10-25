@@ -1,5 +1,6 @@
 class MoviesController < ApplicationController
   def index
+    # todo what if no movies are present?
     @movies = Movie.search(params[:term])
   end
 
