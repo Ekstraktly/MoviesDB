@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdd57bc-0bbe-444e-9c04-0cbd6e606e65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/movie.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,7 +115,7 @@
           <entry key="erb" value="956" />
           <entry key="js" value="10" />
           <entry key="notes" value="33" />
-          <entry key="rb" value="4621" />
+          <entry key="rb" value="4622" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
           <entry key="txt" value="206" />
@@ -129,7 +128,7 @@
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="239" />
           <entry key="RHTML" value="956" />
-          <entry key="Ruby" value="4692" />
+          <entry key="Ruby" value="4693" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
           <entry key="YAML" value="78" />
@@ -147,8 +146,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+                <state relative-caret-position="242">
+                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
                 </state>
               </provider>
             </entry>
@@ -562,7 +561,7 @@
       <workItem from="1539691462909" duration="22417000" />
       <workItem from="1540312744346" duration="11490000" />
       <workItem from="1540480781263" duration="10651000" />
-      <workItem from="1540494858123" duration="7148000" />
+      <workItem from="1540494858123" duration="7295000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -624,7 +623,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104714000" />
+    <option name="totallyTimeSpent" value="104861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+        <state relative-caret-position="242">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

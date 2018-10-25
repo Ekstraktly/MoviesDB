@@ -24,7 +24,7 @@ class Movie < ApplicationRecord
     if term
       where('title ILIKE ?', "%#{term}%")
     else
-      order(:title)R
+      order(:title)
     end
   end
 end
