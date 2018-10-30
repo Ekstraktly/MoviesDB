@@ -28,7 +28,7 @@ class MoviesPopulator
   end
 
   def self.populate_genres
-    url = URI("https://api.themoviedb.org/3/genre/movie/list?api_key=e95ef8f8eb154d4d0fb1ba5d47cb66fc&language=en-US")
+    url = URI("https://api.themoviedb.org/3/genre/movie/list?api_key=#{Rails.application.credentials.moviedbAPI[:APIkey]}&language=en-US")
 
     http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
@@ -50,8 +50,7 @@ class MoviesPopulator
   private
 
   def self.getAPIResponse(page)
-    # todo gdje spremiti ovaj api kljuc?
-    url = URI("https://api.themoviedb.org/3/movie/top_rated?api_key=e95ef8f8eb154d4d0fb1ba5d47cb66fc&language=en-US&page=#{page}")
+    url = URI("https://api.themoviedb.org/3/movie/top_rated?api_key=#{Rails.application.credentials.moviedbAPI[:APIkey]}&language=en-US&page=#{page}")
     http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
@@ -61,7 +60,7 @@ class MoviesPopulator
   end
 
   def self.populateActors(movieID)
-    url = URI("https://api.themoviedb.org/3/movie/#{movieID}?api_key=e95ef8f8eb154d4d0fb1ba5d47cb66fc&append_to_response=credits")
+    url = URI("https://api.themoviedb.org/3/movie/#{movieID}?api_key=#{Rails.application.credentials.moviedbAPI[:APIkey]}&append_to_response=credits")
     http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
