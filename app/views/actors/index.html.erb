@@ -1,2 +1,23 @@
-<h1>Actor#index</h1>
-<p>Find me in app/views/actor/index.html.erb</p>
+<div class="container">
+  <h2>Actors list</h2>
+  <%= form_tag(actors_path, method: :get) do %>
+    <%= text_field_tag :term, params[:term] %>
+    <%= submit_tag 'Search', name: nil %>
+  <% end %>
+  <table>
+    <tr>
+      <th>ID </th>
+      <th>Name</th>
+      <th></th>
+    </tr>
+
+    <% @actors.each do |actor| %>
+      <tr>
+        <td><%= actor.id %> </td>
+        <td><%= actor.name %></td>
+        <td><%= link_to 'Show', actor_path(actor) %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+

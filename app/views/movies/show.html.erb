@@ -18,6 +18,21 @@
           Score: <%= @current_score %>
         </div>
       </div>
+      <table>
+        <tr>
+          <th>Movie</th>
+          <th>Character</th>
+          <th>Actor</th>
+        </tr>
+        <% @movie.roles.each do |role| %>
+          <tr>
+            <td><%= @movie.title %></td>
+            <td><%= role.name %></td>
+            <td><%= role.actor.name %></td>
+            <td><button type="button" class="btn btn"><%= link_to 'Show', actor_path(role.actor) %></button></td>
+          </tr>
+        <% end %>
+      </table>
     </div>
   </div>
     <div class="row">

@@ -22,6 +22,9 @@ class MoviesPopulator
              movie['title'],
              movie['release_date'].partition('-')[0],
              movie['vote_average']
+
+        populateActors(new_movie.id)
+        puts "ACTORS ARE POPULATED"
       end
     end
     nil
@@ -67,6 +70,14 @@ class MoviesPopulator
     request = Net::HTTP::Get.new(url)
     request.body = "{}"
     response = http.request(request)
-    return JSON.parse(response.read_body)['credits']['cast'][0 ... 10]
+    JSON.parse(response.read_body)['credits']['cast'].first(10).select do |castMember|
+      if !Actor.exists?(id: castMember['id'])
+        new_actor = Actor.create('name': castMember['name'],
+                              'id': castMember['id'])
+        new_role = Role.create('movie_id': movieID,
+                               'actor_id': new_actor.id,
+                               'name': castMember['character'])
+      end
+    end
   end
 end
