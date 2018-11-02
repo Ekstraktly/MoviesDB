@@ -13,7 +13,7 @@ class Movie < ApplicationRecord
     download = open(url)
     new_path = Rails.root + "images/#{download.base_uri.to_s.split('/')[-1]}"
     IO.copy_stream(download, new_path)
-    binding.pry # and after two interations disable-pry
+    #binding.pry  and after two interations disable-pry
     avatar.attach(io: File.open(new_path), filename: name, content_type: 'image/jpg')
     avatar.attach(File.open(new_path))
   end
