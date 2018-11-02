@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdd57bc-0bbe-444e-9c04-0cbd6e606e65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,7 +131,7 @@
           <entry key="rb" value="5581" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
-          <entry key="txt" value="455" />
+          <entry key="txt" value="494" />
           <entry key="yml" value="110" />
         </counts>
       </usages-collector>
@@ -140,7 +139,7 @@
         <counts>
           <entry key="CoffeeScript" value="295" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="733" />
+          <entry key="PLAIN_TEXT" value="772" />
           <entry key="RHTML" value="1124" />
           <entry key="Ruby" value="5656" />
           <entry key="SCSS" value="7" />
@@ -187,8 +186,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+                <state relative-caret-position="60">
+                  <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -635,7 +634,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="5836000" />
+      <workItem from="1541156743028" duration="6169000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -728,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541168803980</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="aws-sdk -&gt; aws-sdk-s3 fix">
+      <created>1541169001666</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1541169001666</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142807000" />
+    <option name="totallyTimeSpent" value="143140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,7 +794,8 @@
     <MESSAGE value="API key moved to credentials.yml.enc" />
     <MESSAGE value="Actors added" />
     <MESSAGE value="Space fix in storage.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Space fix in storage.yml" />
+    <MESSAGE value="aws-sdk -&gt; aws-sdk-s3 fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="aws-sdk -&gt; aws-sdk-s3 fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
@@ -1103,8 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
