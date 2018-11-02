@@ -5,6 +5,7 @@ ruby '2.5.1'
 
 #Added during development process
 gem 'activeadmin'
+gem 'aws-sdk', '~> 2'
 gem 'bootstrap'
 gem 'image_processing', '~> 1.2'
 gem 'jquery-rails'
