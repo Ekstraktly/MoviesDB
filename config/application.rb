@@ -18,6 +18,6 @@ module MoviesDB
     #
     # Use Vips for processing variants.
     config.active_storage.variant_processor = :vips
-
+    config.assets.initialize_on_precompile = false
   end
 end
