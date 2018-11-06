@@ -17,8 +17,8 @@ class Movie < ApplicationRecord
     #new_path = Rails.root + "images/#{image_name}"
     new_path = 'https://s3.eu-west-3.amazonaws.com/moviesdbstorage/' + image_name
     #binding.pry  and after two interations disable-pry
-    saved_image = s3.put_object(bucket: ENV['S3_BUCKET_NAME'], key: image_name, body: download)
-    avatar.attach(io: File.open(open(new_path)), filename: name, content_type: 'image/jpg')
+    s3.put_object(bucket: ENV['S3_BUCKET_NAME'], key: image_name, body: download)
+    avatar.attach(io: open(new_path), filename: name, content_type: 'image/jpg')
     #avatar.attach(File.open(new_path))
   end
 
