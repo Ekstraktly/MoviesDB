@@ -128,11 +128,11 @@
           <entry key="gitignore" value="162" />
           <entry key="js" value="10" />
           <entry key="key" value="2" />
-          <entry key="notes" value="367" />
-          <entry key="rb" value="5833" />
+          <entry key="notes" value="369" />
+          <entry key="rb" value="5849" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
-          <entry key="txt" value="754" />
+          <entry key="txt" value="758" />
           <entry key="yml" value="110" />
         </counts>
       </usages-collector>
@@ -140,9 +140,9 @@
         <counts>
           <entry key="CoffeeScript" value="295" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="1294" />
+          <entry key="PLAIN_TEXT" value="1300" />
           <entry key="RHTML" value="1124" />
-          <entry key="Ruby" value="5918" />
+          <entry key="Ruby" value="5934" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
           <entry key="YAML" value="110" />
@@ -154,7 +154,7 @@
     <favorites_list name="MoviesDB" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5085497">
+    <splitter split-orientation="horizontal" split-proportion="0.409753">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -201,8 +201,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                <state relative-caret-position="300">
+                  <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -232,8 +232,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../notes">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="26" />
+                <state relative-caret-position="437">
+                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
                 </state>
               </provider>
             </entry>
@@ -341,9 +341,9 @@
         <option value="$PROJECT_DIR$/config/storage.yml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/../notes" />
         <option value="$PROJECT_DIR$/app/helpers/movies_populator.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181011114856_create_role.rb" />
+        <option value="$PROJECT_DIR$/../notes" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
       </list>
     </option>
@@ -610,7 +610,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="26194000" />
+      <workItem from="1541156743028" duration="27514000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -766,11 +766,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541542276285</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Avatar attach fix S3 v2">
+      <created>1541543425273</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1541543425273</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Avatar attach fix S3 v3">
+      <created>1541544251126</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1541544251126</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163165000" />
+    <option name="totallyTimeSpent" value="164485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -795,12 +809,12 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="7" sideWeight="0.44183564" visible="true" weight="0.4342797" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.44183564" visible="true" weight="0.4342797" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" sideWeight="0.40021345" weight="0.32912722" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5266809" side_tool="true" weight="0.325462" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.5997866" side_tool="true" weight="0.32912722" />
-      <window_info anchor="bottom" x="2405" y="752" width="771" height="223" id="Terminal" order="12" sideWeight="0.55816436" side_tool="true" visible="true" weight="0.4342797" />
+      <window_info active="true" anchor="bottom" x="2405" y="752" width="771" height="223" id="Terminal" order="12" sideWeight="0.55816436" side_tool="true" visible="true" weight="0.4342797" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -856,7 +870,9 @@
     <MESSAGE value="Avatar attach fix v1" />
     <MESSAGE value="Create role fix belongs_to singular instead of plural" />
     <MESSAGE value="Avatar attach fix S3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3" />
+    <MESSAGE value="Avatar attach fix S3 v2" />
+    <MESSAGE value="Avatar attach fix S3 v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3 v3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb">
@@ -1159,20 +1175,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/uC6TTUhPpQCmgldGyYveKRAu8JN.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="300">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>
