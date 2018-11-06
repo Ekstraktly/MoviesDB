@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bdd57bc-0bbe-444e-9c04-0cbd6e606e65" name="Default Changelist" comment="Avatar attach fix S3 v8 eu-west-3 region">
+    <list default="true" id="5bdd57bc-0bbe-444e-9c04-0cbd6e606e65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/movie.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
     </list>
@@ -129,10 +129,10 @@
           <entry key="js" value="10" />
           <entry key="key" value="2" />
           <entry key="notes" value="369" />
-          <entry key="rb" value="5920" />
+          <entry key="rb" value="5927" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
-          <entry key="txt" value="788" />
+          <entry key="txt" value="791" />
           <entry key="yml" value="110" />
         </counts>
       </usages-collector>
@@ -140,9 +140,9 @@
         <counts>
           <entry key="CoffeeScript" value="295" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="1330" />
+          <entry key="PLAIN_TEXT" value="1333" />
           <entry key="RHTML" value="1124" />
-          <entry key="Ruby" value="6005" />
+          <entry key="Ruby" value="6012" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
           <entry key="YAML" value="110" />
@@ -169,8 +169,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -579,7 +579,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="29780000" />
+      <workItem from="1541156743028" duration="30324000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -791,11 +791,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541546513291</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Avatar attach fix S3 v9">
+      <created>1541546987071</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1541546987071</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Avatar attach fix S3 v10">
+      <created>1541547418449</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1541547418449</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166751000" />
+    <option name="totallyTimeSpent" value="167295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,12 +834,12 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.44183564" visible="true" weight="0.4342797" />
+      <window_info active="true" anchor="bottom" id="TODO" order="7" sideWeight="0.44183564" visible="true" weight="0.4342797" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" sideWeight="0.40021345" weight="0.32912722" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5266809" side_tool="true" weight="0.325462" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.5997866" side_tool="true" weight="0.32912722" />
-      <window_info active="true" anchor="bottom" x="2405" y="752" width="771" height="223" id="Terminal" order="12" sideWeight="0.55816436" side_tool="true" visible="true" weight="0.4342797" />
+      <window_info anchor="bottom" x="2405" y="752" width="771" height="223" id="Terminal" order="12" sideWeight="0.55816436" side_tool="true" visible="true" weight="0.4342797" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -861,8 +875,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Live score_average added for movies" />
-    <MESSAGE value="Bootstrap added and frontend fixed" />
     <MESSAGE value="Search bar added" />
     <MESSAGE value="genre_id -&gt; genres_id" />
     <MESSAGE value="migration belogns_to :genre (singular)" />
@@ -886,7 +898,9 @@
     <MESSAGE value="Avatar attach fix S3 v7" />
     <MESSAGE value="Avatar attach fix S3 v8 us-west-2 region" />
     <MESSAGE value="Avatar attach fix S3 v8 eu-west-3 region" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3 v8 eu-west-3 region" />
+    <MESSAGE value="Avatar attach fix S3 v9" />
+    <MESSAGE value="Avatar attach fix S3 v10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3 v10" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb">
@@ -1201,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>

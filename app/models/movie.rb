@@ -15,7 +15,7 @@ class Movie < ApplicationRecord
     download = open(url)
     image_name = download.base_uri.to_s.split('/')[-1]
     #new_path = Rails.root + "images/#{image_name}"
-    new_path = 'https://s3.us-east-1.amazonaws.com/moviesdbstorage/' + image_name
+    new_path = 'https://s3.eu-west-3.amazonaws.com/moviesdbstorage/' + image_name
     #binding.pry  and after two interations disable-pry
     s3.put_object(bucket: ENV['S3_BUCKET_NAME'], key: image_name, body: download)
     avatar.attach(io: open(new_path), filename: name, content_type: 'image/jpg')
