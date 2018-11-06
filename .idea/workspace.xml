@@ -129,7 +129,7 @@
           <entry key="js" value="10" />
           <entry key="key" value="2" />
           <entry key="notes" value="369" />
-          <entry key="rb" value="5929" />
+          <entry key="rb" value="5956" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
           <entry key="txt" value="792" />
@@ -142,7 +142,7 @@
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="1334" />
           <entry key="RHTML" value="1124" />
-          <entry key="Ruby" value="6014" />
+          <entry key="Ruby" value="6041" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
           <entry key="YAML" value="110" />
@@ -169,8 +169,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+                <state relative-caret-position="300">
+                  <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -579,7 +579,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="30756000" />
+      <workItem from="1541156743028" duration="31085000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -819,11 +819,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541547610951</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Avatar attach fix S3 v6">
+      <created>1541547959071</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1541547959071</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Avatar attach fix S3 v6">
+      <created>1541548156708</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1541548156708</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167727000" />
+    <option name="totallyTimeSpent" value="168056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1229,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="300">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
