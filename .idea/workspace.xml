@@ -129,10 +129,10 @@
           <entry key="js" value="10" />
           <entry key="key" value="2" />
           <entry key="notes" value="369" />
-          <entry key="rb" value="5849" />
+          <entry key="rb" value="5873" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
-          <entry key="txt" value="758" />
+          <entry key="txt" value="760" />
           <entry key="yml" value="110" />
         </counts>
       </usages-collector>
@@ -140,9 +140,9 @@
         <counts>
           <entry key="CoffeeScript" value="295" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="1300" />
+          <entry key="PLAIN_TEXT" value="1302" />
           <entry key="RHTML" value="1124" />
-          <entry key="Ruby" value="5934" />
+          <entry key="Ruby" value="5958" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
           <entry key="YAML" value="110" />
@@ -154,7 +154,7 @@
     <favorites_list name="MoviesDB" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.409753">
+    <splitter split-orientation="horizontal" split-proportion="0.48828372">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -201,8 +201,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+                <state relative-caret-position="291">
+                  <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -610,7 +610,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="27514000" />
+      <workItem from="1541156743028" duration="28218000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -780,11 +780,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541544251126</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Avatar attach fix S3 v4">
+      <created>1541544729994</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1541544729994</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Avatar attach fix S3 v5">
+      <created>1541545090557</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1541545090557</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164485000" />
+    <option name="totallyTimeSpent" value="165189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,7 +886,9 @@
     <MESSAGE value="Avatar attach fix S3" />
     <MESSAGE value="Avatar attach fix S3 v2" />
     <MESSAGE value="Avatar attach fix S3 v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3 v3" />
+    <MESSAGE value="Avatar attach fix S3 v4" />
+    <MESSAGE value="Avatar attach fix S3 v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3 v5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb">
@@ -1187,8 +1203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="291">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
