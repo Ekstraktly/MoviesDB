@@ -129,10 +129,10 @@
           <entry key="js" value="10" />
           <entry key="key" value="2" />
           <entry key="notes" value="369" />
-          <entry key="rb" value="5956" />
+          <entry key="rb" value="5994" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
-          <entry key="txt" value="792" />
+          <entry key="txt" value="795" />
           <entry key="yml" value="110" />
         </counts>
       </usages-collector>
@@ -140,9 +140,9 @@
         <counts>
           <entry key="CoffeeScript" value="295" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="1334" />
+          <entry key="PLAIN_TEXT" value="1337" />
           <entry key="RHTML" value="1124" />
-          <entry key="Ruby" value="6041" />
+          <entry key="Ruby" value="6079" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
           <entry key="YAML" value="110" />
@@ -160,8 +160,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/helpers/movies_populator.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1185">
-                  <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -169,8 +169,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -579,7 +579,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="31085000" />
+      <workItem from="1541156743028" duration="32067000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -833,11 +833,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541548156708</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Avatar attach fix S3 v6">
+      <created>1541548289540</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1541548289540</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Avatar attach fix S3 v10+">
+      <created>1541548901165</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1541548901165</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168056000" />
+    <option name="totallyTimeSpent" value="169038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -903,7 +917,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="genre_id -&gt; genres_id" />
     <MESSAGE value="migration belogns_to :genre (singular)" />
     <MESSAGE value="genres_id -&gt; genre_id @ MoviesPopulator#populate_movies" />
     <MESSAGE value="API key moved to credentials.yml.enc" />
@@ -928,7 +941,8 @@
     <MESSAGE value="Avatar attach fix S3 v9" />
     <MESSAGE value="Avatar attach fix S3 v10" />
     <MESSAGE value="Avatar attach fix S3 v6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3 v6" />
+    <MESSAGE value="Avatar attach fix S3 v10+" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3 v10+" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb">
@@ -1236,15 +1250,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/movies_populator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+        <state relative-caret-position="345">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="315">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
         </state>
       </provider>
     </entry>
