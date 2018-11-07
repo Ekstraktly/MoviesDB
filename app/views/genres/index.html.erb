@@ -13,12 +13,14 @@
 
   <% @genres.each do |genre| %>
     <tr>
-      <b></b><td><%= genre.id %> </td>
+      <b><td><%= genre.id %> </td>
       <td><%= genre.name %></td></b>
       <% genre.movies.each do |movie| %>
       <tr>
         <td><%= movie.id %></td>
         <td><%= movie.title %></td>
+        <td><%= image_tag @movie.avatar.variant(resize: '100x100'),
+                      class: "img-fluid" %></td>
         <td><button type="button" class="btn btn"><%= link_to 'Show', movie_path(movie) %></button></td>
       </tr>
     <% end %>

@@ -89,7 +89,7 @@
           <entry key="Local (1)" value="9" />
           <entry key="coffee" value="7" />
           <entry key="enc" value="6" />
-          <entry key="erb" value="38" />
+          <entry key="erb" value="39" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="jpg" value="2" />
@@ -110,7 +110,7 @@
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="RHTML" value="38" />
+          <entry key="RHTML" value="39" />
           <entry key="Ruby" value="137" />
           <entry key="SCSS" value="1" />
           <entry key="Scratch" value="7" />
@@ -124,7 +124,7 @@
           <entry key="Gemfile" value="85" />
           <entry key="coffee" value="295" />
           <entry key="enc" value="9" />
-          <entry key="erb" value="1140" />
+          <entry key="erb" value="1149" />
           <entry key="gitignore" value="162" />
           <entry key="js" value="10" />
           <entry key="key" value="2" />
@@ -132,7 +132,7 @@
           <entry key="rb" value="6049" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
-          <entry key="txt" value="795" />
+          <entry key="txt" value="815" />
           <entry key="yml" value="113" />
         </counts>
       </usages-collector>
@@ -140,8 +140,8 @@
         <counts>
           <entry key="CoffeeScript" value="295" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="1337" />
-          <entry key="RHTML" value="1140" />
+          <entry key="PLAIN_TEXT" value="1357" />
+          <entry key="RHTML" value="1149" />
           <entry key="Ruby" value="6134" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
@@ -169,8 +169,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/genres/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="41" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="6" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -591,7 +600,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="38445000" />
+      <workItem from="1541156743028" duration="38843000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -887,11 +896,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541583360133</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Genres list fix">
+      <created>1541633468385</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1541633468385</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Genres list fix v2">
+      <created>1541633667159</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1541633667159</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175416000" />
+    <option name="totallyTimeSpent" value="175814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -957,8 +980,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="migration belogns_to :genre (singular)" />
-    <MESSAGE value="genres_id -&gt; genre_id @ MoviesPopulator#populate_movies" />
     <MESSAGE value="API key moved to credentials.yml.enc" />
     <MESSAGE value="Actors added" />
     <MESSAGE value="Space fix in storage.yml" />
@@ -982,7 +1003,9 @@
     <MESSAGE value="Avatar attach fix S3 v10" />
     <MESSAGE value="Avatar attach fix S3 v6" />
     <MESSAGE value="Avatar attach fix S3 v10+" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avatar attach fix S3 v10+" />
+    <MESSAGE value="Genres list fix" />
+    <MESSAGE value="Genres list fix v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genres list fix v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb">
@@ -1229,13 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181011114856_create_role.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1295,10 +1311,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/genres/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="315">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
         </state>
       </provider>
     </entry>
