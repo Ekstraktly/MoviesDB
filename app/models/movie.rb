@@ -19,7 +19,8 @@ class Movie < ApplicationRecord
     #binding.pry  and after two interations disable-pry
     s3.put_object(bucket: ENV['S3_BUCKET_NAME'], key: image_name, body: download)
     saved_image= s3.get_object(bucket: ENV['S3_BUCKET_NAME'], key: image_name)
-    avatar.attach(io: saved_image.body, filename: name, content_type: 'image/jpg')
+    #avatar.attach(io: saved_image.body, filename: name, content_type: 'image/jpg')
+    avatar.attach(saved_image.body)
     #avatar.attach(File.open(new_path))
   end
 
