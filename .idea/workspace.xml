@@ -4,6 +4,7 @@
     <list default="true" id="5bdd57bc-0bbe-444e-9c04-0cbd6e606e65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/movie.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,7 @@
           <entry key="rb" value="126" />
           <entry key="scss" value="1" />
           <entry key="sql" value="7" />
-          <entry key="yml" value="8" />
+          <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -116,7 +117,7 @@
           <entry key="Scratch" value="7" />
           <entry key="Terminal Session" value="8" />
           <entry key="UML" value="1" />
-          <entry key="YAML" value="8" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -129,11 +130,11 @@
           <entry key="js" value="10" />
           <entry key="key" value="2" />
           <entry key="notes" value="369" />
-          <entry key="rb" value="5994" />
+          <entry key="rb" value="6032" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
           <entry key="txt" value="795" />
-          <entry key="yml" value="110" />
+          <entry key="yml" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -142,10 +143,10 @@
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="1337" />
           <entry key="RHTML" value="1124" />
-          <entry key="Ruby" value="6079" />
+          <entry key="Ruby" value="6117" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
-          <entry key="YAML" value="110" />
+          <entry key="YAML" value="113" />
         </counts>
       </usages-collector>
     </session>
@@ -160,8 +161,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/helpers/movies_populator.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+                <state relative-caret-position="285">
+                  <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -169,8 +170,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+                <state relative-caret-position="321">
+                  <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -200,8 +201,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../notes">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -307,12 +308,12 @@
         <option value="$PROJECT_DIR$/app/views/movies/show.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/aws.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/config/storage.yml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/helpers/movies_populator.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181011114856_create_role.rb" />
         <option value="$PROJECT_DIR$/../notes" />
+        <option value="$PROJECT_DIR$/config/storage.yml" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
       </list>
     </option>
@@ -408,6 +409,11 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MoviesDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MoviesDB" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -579,7 +585,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="32067000" />
+      <workItem from="1541156743028" duration="35065000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -847,11 +853,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541548901165</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Avatar attach fix S3 v10+">
+      <created>1541549278651</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1541549278651</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Avatar attach fix S3 v10+">
+      <created>1541550286383</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1541550286383</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169038000" />
+    <option name="totallyTimeSpent" value="172036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,7 +886,7 @@
     <frame x="1366" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.15741728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.15741728" />
       <window_info id="Structure" order="1" sideWeight="0.50078005" side_tool="true" weight="0.18463181" />
       <window_info id="Favorites" order="2" sideWeight="0.5016892" side_tool="true" weight="0.2854856" />
       <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.4967983" weight="0.3280757" />
@@ -881,7 +901,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5266809" side_tool="true" weight="0.325462" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.5997866" side_tool="true" weight="0.32912722" />
-      <window_info active="true" anchor="bottom" x="2405" y="752" width="771" height="223" id="Terminal" order="12" sideWeight="0.55816436" side_tool="true" visible="true" weight="0.4342797" />
+      <window_info anchor="bottom" x="2405" y="752" width="771" height="223" id="Terminal" order="12" sideWeight="0.55816436" side_tool="true" visible="true" weight="0.4342797" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1165,13 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/storage.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1243,22 +1256,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../notes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/movies_populator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/storage.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="321">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
