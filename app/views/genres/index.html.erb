@@ -1,3 +1,4 @@
+<%= stylesheet_link_tag "genre" %>
 <div class="container">
 <h2>Genres list</h2>
   <%= form_tag(genres_path, method: :get) do %>
@@ -14,7 +15,7 @@
   <% @genres.each do |genre| %>
     <tr>
       <td><%= genre.id %> </td>
-      <td><%= genre.name %></td>
+      <td class="bold"><%= genre.name %></td>
       <% genre.movies.each do |movie| %>
       <tr>
         <td><%= movie.id %></td>
@@ -27,4 +28,6 @@
   <% end %>
 </table>
 </div>
+
+.bold
 
