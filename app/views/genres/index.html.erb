@@ -15,6 +15,14 @@
     <tr>
       <td><%= genre.id %> </td>
       <td><%= genre.name %></td>
+      <% genre.movies.each do |movie| %>
+      <tr>
+        <td><%= movie.id %></td>
+        <td><%= movie.title %></td>
+        <td><button type="button" class="btn btn"><%= link_to 'Show', movie_path(movie) %></button></td>
+      </tr>
+    <% end %>
+
       <td><%= link_to 'Show', genre_path(genre) %></td>
     </tr>
   <% end %>
