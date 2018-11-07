@@ -124,7 +124,7 @@
           <entry key="Gemfile" value="85" />
           <entry key="coffee" value="295" />
           <entry key="enc" value="9" />
-          <entry key="erb" value="1149" />
+          <entry key="erb" value="1172" />
           <entry key="gitignore" value="162" />
           <entry key="js" value="10" />
           <entry key="key" value="2" />
@@ -132,7 +132,7 @@
           <entry key="rb" value="6049" />
           <entry key="scss" value="7" />
           <entry key="sql" value="47" />
-          <entry key="txt" value="815" />
+          <entry key="txt" value="816" />
           <entry key="yml" value="113" />
         </counts>
       </usages-collector>
@@ -140,8 +140,8 @@
         <counts>
           <entry key="CoffeeScript" value="295" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="1357" />
-          <entry key="RHTML" value="1149" />
+          <entry key="PLAIN_TEXT" value="1358" />
+          <entry key="RHTML" value="1172" />
           <entry key="Ruby" value="6134" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="47" />
@@ -169,8 +169,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/genres/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+                <state relative-caret-position="195">
+                  <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -600,7 +600,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="38843000" />
+      <workItem from="1541156743028" duration="39153000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539092586740</created>
@@ -910,11 +910,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541633667159</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Genres list fix v3">
+      <created>1541633850002</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1541633850002</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Genres list fix v3">
+      <created>1541633924338</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1541633924338</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175814000" />
+    <option name="totallyTimeSpent" value="176124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -980,7 +994,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="API key moved to credentials.yml.enc" />
     <MESSAGE value="Actors added" />
     <MESSAGE value="Space fix in storage.yml" />
     <MESSAGE value="aws-sdk -&gt; aws-sdk-s3 fix" />
@@ -1005,7 +1018,8 @@
     <MESSAGE value="Avatar attach fix S3 v10+" />
     <MESSAGE value="Genres list fix" />
     <MESSAGE value="Genres list fix v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genres list fix v2" />
+    <MESSAGE value="Genres list fix v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genres list fix v3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb">
@@ -1320,8 +1334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/genres/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        <state relative-caret-position="195">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
