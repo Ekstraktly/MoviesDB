@@ -25,7 +25,7 @@ class Movie < ApplicationRecord
 
   def self.search(term)
     if term
-      includes(:actors).where("concat_ws(' ', name, title) ILIKE ?", "%#{term}%")
+      joins(:actors).where("concat_ws(' ', actors.name, title) ILIKE ?", "%#{term}%")
     else
       order(:title)
     end
