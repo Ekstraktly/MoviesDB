@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5bdd57bc-0bbe-444e-9c04-0cbd6e606e65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/genre.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/genre.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/movie.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +97,7 @@
           <entry key="key" value="4" />
           <entry key="lock" value="1" />
           <entry key="notes" value="4" />
-          <entry key="rb" value="132" />
+          <entry key="rb" value="138" />
           <entry key="scss" value="3" />
           <entry key="sql" value="7" />
           <entry key="yml" value="9" />
@@ -112,7 +111,7 @@
           <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="RHTML" value="39" />
-          <entry key="Ruby" value="142" />
+          <entry key="Ruby" value="148" />
           <entry key="SCSS" value="3" />
           <entry key="Scratch" value="7" />
           <entry key="Terminal Session" value="9" />
@@ -130,10 +129,10 @@
           <entry key="js" value="10" />
           <entry key="key" value="2" />
           <entry key="notes" value="369" />
-          <entry key="rb" value="6127" />
+          <entry key="rb" value="6294" />
           <entry key="scss" value="40" />
           <entry key="sql" value="47" />
-          <entry key="txt" value="817" />
+          <entry key="txt" value="843" />
           <entry key="yml" value="113" />
         </counts>
       </usages-collector>
@@ -141,9 +140,9 @@
         <counts>
           <entry key="CoffeeScript" value="295" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="1359" />
+          <entry key="PLAIN_TEXT" value="1385" />
           <entry key="RHTML" value="1254" />
-          <entry key="Ruby" value="6212" />
+          <entry key="Ruby" value="6379" />
           <entry key="SCSS" value="40" />
           <entry key="Scratch" value="47" />
           <entry key="YAML" value="113" />
@@ -162,7 +161,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
-                  <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+                  <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -197,8 +196,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                <state relative-caret-position="364">
+                  <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -207,7 +206,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
-                  <caret line="6" column="41" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="6" selection-end-column="41" />
+                  <caret line="6" column="41" selection-start-line="5" selection-start-column="5" selection-end-line="6" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -216,7 +215,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/genres/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+                  <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -225,10 +224,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/db/schema.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
+                <state relative-caret-position="840">
                   <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
                 </state>
               </provider>
@@ -238,12 +237,12 @@
             <entry file="file://$PROJECT_DIR$/../notes">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="405">
-                  <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+                  <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="mock:///Local (1)">
               <provider selected="true" editor-type-id="terminal-session-editor" />
             </entry>
@@ -300,7 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20181009140310_create_actors.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181009140300_create_genres.rb" />
         <option value="$PROJECT_DIR$/app/models/role.rb" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin.rb" />
@@ -351,6 +349,7 @@
         <option value="$PROJECT_DIR$/app/views/genres/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/genre.scss" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181109194149_create_likes.rb" />
       </list>
     </option>
   </component>
@@ -669,21 +668,7 @@
       <workItem from="1540573777756" duration="1881000" />
       <workItem from="1540810780847" duration="6288000" />
       <workItem from="1540894824265" duration="19847000" />
-      <workItem from="1541156743028" duration="42957000" />
-    </task>
-    <task id="LOCAL-00004" summary="Avatars added">
-      <created>1539703103817</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1539703103817</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Live score_average added for movies">
-      <created>1539708956674</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1539708956674</updated>
+      <workItem from="1541156743028" duration="48769000" />
     </task>
     <task id="LOCAL-00006" summary="Bootstrap added and frontend fixed">
       <created>1540329156343</created>
@@ -1014,11 +999,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541675673734</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Added search by actor name">
+      <created>1541771569222</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1541771569222</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Added search by actor name">
+      <created>1541771905754</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1541771905754</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179928000" />
+    <option name="totallyTimeSpent" value="185740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,7 +1083,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Space fix in storage.yml" />
     <MESSAGE value="aws-sdk -&gt; aws-sdk-s3 fix" />
     <MESSAGE value="precompiling assets set to false" />
     <MESSAGE value="Gemfile aws-sdk-s3, require: false" />
@@ -1109,17 +1107,10 @@
     <MESSAGE value="Genres list fix v2" />
     <MESSAGE value="Genres list fix v3" />
     <MESSAGE value="Genres list fix v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genres list fix v4" />
+    <MESSAGE value="Added search by actor name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added search by actor name" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/ruby/2.5.0/open-uri.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/uC6TTUhPpQCmgldGyYveKRAu8JN.jpg" />
     <entry file="file://$PROJECT_DIR$/app/helpers/actor_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1166,9 +1157,6 @@
           <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181009140300_create_genres.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/channels/like_status_channel.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1318,13 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181011114856_create_role.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/uC6TTUhPpQCmgldGyYveKRAu8JN.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1345,28 +1326,28 @@
     <entry file="file://$PROJECT_DIR$/../notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/genres/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="6" selection-end-column="41" />
+          <caret line="6" column="41" selection-start-line="5" selection-start-column="5" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1398,12 +1379,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/genre.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181109194149_create_likes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181009140300_create_genres.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181011114856_create_role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181011122024_create_active_storage_tables.active_storage.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181009140310_create_actors.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181009140305_create_movies.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1412,20 +1416,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181009140310_create_actors.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/genre.scss">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="840">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="364">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>

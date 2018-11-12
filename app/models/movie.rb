@@ -25,6 +25,7 @@ class Movie < ApplicationRecord
 
   def self.search(term)
     if term
+      #TODO only works if first and last name are in correct order
       joins(:actors).where("concat_ws(' ', actors.name, title) ILIKE ?", "%#{term}%")
     else
       order(:title)
